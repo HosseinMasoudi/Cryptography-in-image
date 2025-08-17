@@ -20,7 +20,9 @@ pip install pillow
 └── README.md    # Project description
 ```
 For example:
+```
 If we encode the text "Hello":
 ASCII values: [72, 101, 108, 108, 111]
 These values are stored in the red channel of selected pixels in the image and is saved in a encrypted_image.png file
 When decoding, we get back the original text "Hello"
+```
