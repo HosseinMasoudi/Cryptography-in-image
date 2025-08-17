@@ -5,6 +5,7 @@ This project implements a simple system for hiding text inside images (Steganogr
 ## Text to Image Encoder/Decoder
 
 The main idea is to convert text into ASCII values and store them inside the red channel (R) of image pixels. Later, we can read the values back and recover the original text.
+
 The way the encoder works is that it takes a number (private key) and a text, and in the decoder you have to give it the same number and the path to the image.
 
 For example:
